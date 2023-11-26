@@ -1,0 +1,33 @@
+{
+    "name": "stats",
+    "description": "Fetch a player's stats",
+    "options": [
+      {
+        "name": "player_name",
+        "description": "The player to find the amount for",
+        "type": 3,
+        "required": true
+      },
+      {
+        "name": "account_type",
+        "description": "What platform does the player play on?",
+        "type": 3,
+        "required": true,
+        "choices": [
+          {
+            "name": "Epic",
+            "value": "epic"
+          },
+          {
+            "name": "PSN",
+            "value": "psn"
+          },
+          {
+            "name": "Xbox Live",
+            "value": "xbl"
+          }
+        ]
+      }
+    ]
+  }
+  
